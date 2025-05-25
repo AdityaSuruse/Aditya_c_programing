@@ -3,7 +3,7 @@ int main()
 {
     int a, b, c;
     printf("Enter The value");
-    scanf("%d%d%d", a, b, c);
+    scanf("%d%d%d", &a, &b, &c);
     if (c > a && c > b)
 
         printf("max is %d",c);
@@ -17,4 +17,5 @@ int main()
             printf("max is %d",b);
             return 0;
         }
+        return 0;
 }
