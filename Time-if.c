@@ -15,11 +15,11 @@
     //         if (s >= 0 && s < 60)
     //         {
     //             printf("Time Is Valid");
-    //         }
-    //         else
+//         }
+//         else
     //             printf("Second Is Invalid");
-    //     }
-    //     else
+//     }
+//     else
     //         printf("Minite Are Invalid");
     // }
     // else
