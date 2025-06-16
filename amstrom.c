@@ -1,5 +1,5 @@
 #include<stdio.h>
-int maim()
+int main()
 {
     int n, cnt=0;
     printf("Eter A Number");

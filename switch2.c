@@ -26,7 +26,6 @@ int main()
 
 
 
-// Compiler Exmple
 // #include <stdio.h>
 // int main()
 // {
