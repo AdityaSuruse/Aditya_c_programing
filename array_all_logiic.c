@@ -66,6 +66,7 @@ int main()
         case 5:
             printf("Enter Number For Occurence\n=>");
             scanf("%d", &key);
+            cnt = 0;
             for (i = 0; i < n; i++)
             {
                 if (key == a[i])
