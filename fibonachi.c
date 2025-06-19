@@ -9,18 +9,18 @@ int main()
     //  n=8;
     if (n == 1)
 
-        printf("%d ", a);
+        printf("%d \n", a);
     else if (n == 2)
 
-        printf("%d %d", a, b);
+        printf("%d\n %d\n", a, b);
 
     else if (n > 2)
     {
-        printf("%d %d", a, b);
+        printf("%d\n %d\n", a, b);
         for (i = 2; i < n; i++)
         {
             c = a + b;
-            printf(" %d", c);
+            printf(" %d\n", c);
             a = b;
             b = c;
         }
