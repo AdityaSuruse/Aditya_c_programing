@@ -34,7 +34,16 @@ void display(Node *head)
         head = head->next;
     }
 }
-
+void insertFirst(Node **r, int data)
+{
+    Node *newNode = (Node *)malloc(sizeof(Node));
+    newNode->data = data;
+    if ((*r) == NULL)
+        newNode->next = NULL;
+    else
+        newNode->next = (*r);
+    (*r) = newNode;
+}
 int main()
 {
     Node *head = NULL;
@@ -53,6 +62,11 @@ int main()
             break;
         case 2:
             display(head);
+            break;
+            case 3:
+            printf("Enter A Data");
+            scanf("%d", &data);
+            insertFirst(&head, data);
             break;
         case 7:
             return 0;
